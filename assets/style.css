@@ -1,0 +1,21 @@
+html {
+    /* border-box box model allows us to add padding and border to our elements without increasing their size */
+    box-sizing: border-box;
+    color: black;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: lightblue;
+}
